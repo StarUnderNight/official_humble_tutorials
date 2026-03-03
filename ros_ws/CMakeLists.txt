@@ -8,5 +8,5 @@ include("/opt/ros/cmake/colcon.cmake")
 colcon_add_subdirectories(
         BUILD_BASE "${PROJECT_SOURCE_DIR}/build"
         BASE_PATHS "${PROJECT_SOURCE_DIR}/src/"
-        --packages-select cpp_pubsub
+        --packages-select cpp_pubsub cpp_srvcli
 )

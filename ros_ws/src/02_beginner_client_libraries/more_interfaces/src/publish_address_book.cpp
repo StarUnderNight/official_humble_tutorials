@@ -1,3 +1,7 @@
+/**
+ * Clion 加载项目后会首先使用ros_ws/build目录下的 more_interfaces，但这样会找不到build_ws/install/下的 more_interfaces
+ * 因此直接点击 main函数前面的运行，就会自己编译目标，然后找到 build_ws/install下的头文件
+ */
 #include <chrono>
 #include <memory>
 

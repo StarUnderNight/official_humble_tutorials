@@ -12,5 +12,5 @@ message(STATUS "ROS_DISTRO=$ENV{ROS_DISTRO}")
 colcon_add_subdirectories(
         BUILD_BASE "${PROJECT_SOURCE_DIR}/build"
         BASE_PATHS "${PROJECT_SOURCE_DIR}/src/"
-        --packages-select cpp_pubsub cpp_srvcli more_interfaces cpp_parameters
+        --packages-select cpp_pubsub cpp_srvcli more_interfaces cpp_parameters polygon_base
 )
